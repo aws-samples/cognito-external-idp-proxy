@@ -1,0 +1,4 @@
+aws-cdk-lib
+cdk-nag
+constructs
+jwcrypto

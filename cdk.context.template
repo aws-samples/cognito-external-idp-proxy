@@ -1,0 +1,18 @@
+{
+  "api_version": "v1",
+  "api_authn_route": "/authorize",
+  "api_callback_route": "/callback",
+  "api_token_route": "/token",
+  "idp_attributes_path": "/userinfo",
+  "idp_auth_path": "/authorize",
+  "idp_keys_path": "/keys",
+  "idp_token_path": "/token",
+  "idp_client_id": "YOUR_CLIENT_ID",
+  "idp_client_secret": "YOUR_CLIENT_SECRET",
+  "idp_issuer_url": "https://example.com",
+  "idp_name": "INTEGRATION_NAME",
+  "idp_scopes": "openid email profile",
+  "pkce": false,
+  "stack_name": "CognitoExternalIdpProxyStack",
+  "userpool_allowed_callback_url": "https://localhost"
+}
