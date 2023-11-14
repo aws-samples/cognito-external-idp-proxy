@@ -20,7 +20,7 @@ This repository does not contain a front-end application to integrate with the C
 ![Architecture diagram for a proxy between an Amazon Cognito User Pool and a 3rd party OIDC IdP with private key JWT and PKCE](docs/assets/images/private-key-with-pkce.png)
 
 ## Additional resources
-* [this blog](https://aws.amazon.com/blogs/) for a high-level overview of the concept and use-case (Placeholder! Blog not yet published)
+* [this blog](https://aws.amazon.com/blogs/security/use-private-key-jwt-authentication-between-amazon-cognito-user-pools-and-an-oidc-idp/) for a high-level overview of the concept and use-case
 * [simplified request flow for private key JWT](docs/SIMPLE_FLOW.md)
 * [detailed flow docs](docs/DETAILED_FLOW.md) for more insights into the request flow
 
